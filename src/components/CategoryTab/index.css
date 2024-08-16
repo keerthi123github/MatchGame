@@ -1,0 +1,49 @@
+.category-tab-item {
+  margin-right: 20px;
+}
+.tab-button {
+  background-color: transparent;
+  border-style: solid;
+  border-color: #ffffff;
+  border-bottom-width: 2px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 20px;
+  height: 60px;
+  width: 80px;
+  cursor: pointer;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .tab-button {
+    font-size: 18px;
+    width: 70px;
+    height: 50px;
+  }
+}
+.active-tab-button {
+  background-color: transparent;
+  border-style: solid;
+  border-color: #fec653;
+  border-bottom-width: 2px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #fec653;
+  height: 60px;
+  width: 80px;
+  cursor: pointer;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .active-tab-button {
+    font-size: 18px;
+    width: 70px;
+    height: 50px;
+  }
+}
